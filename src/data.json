@@ -1,0 +1,29 @@
+{
+    "formName": "AccountsHead",
+    "formDesc": "This is test description",
+    "data": [
+        {
+            "fieldname": "AccountHeadName",
+            "fieldplaceholder": "Account Head Name",
+            "fieldlabel": "Account Head Name",
+            "fieldrules": [
+                {
+                    "required": true,
+                    "message": "This field is required"
+                }
+            ],
+            "fieldtype": "text"
+        },
+        {
+            "fieldname": "AccountType",
+            "fieldplaceholder": "",
+            "fieldlabel": "Account Type",
+            "fieldrules": [],
+            "fieldtype": "select",
+            "options": [
+                "Assets",
+                "Liabilities"
+            ]
+        }
+    ]
+}
